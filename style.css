@@ -3,4 +3,19 @@
     padding: 3px;
     background-color: #500268;
     color: #9f9ca0;
+
+}
+
+h2{
+    margin: 8px;
+    padding: 8px;
+    background-color: aliceblue;
+    color: #500268;
+}
+
+h3{
+    margin: 4px;
+    padding: 4px;
+    background-color: aliceblue;
+    color: #500268;
 }
