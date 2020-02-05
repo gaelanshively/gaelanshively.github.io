@@ -8,15 +8,17 @@
 body{
    /* background-image: url("background2.jpg"); */
    height: 100%;
-    background-image: linear-gradient(to bottom right, #500268, rgb(2, 2, 128)) ;
+  /*  background-image: linear-gradient(to bottom right, #500268, rgb(2, 2, 128)) ;  */
 
 }
 
 .wrapper{
+    height:100%;
     display: grid;
+    background-image: linear-gradient(to bottom right, #500268, rgb(2, 2, 128)) ;
     grid-template-columns: 1fr 7fr;
     grid-gap: 4px;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 5fr 5%;
 }
 
 .gridone{
@@ -43,6 +45,14 @@ body{
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 7;
+}
+
+.gridfour{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    align-items: center;
+    color: aliceblue;
 }
 
 
