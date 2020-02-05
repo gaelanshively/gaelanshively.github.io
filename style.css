@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 3px;
     padding: 3px;
+    background-image: url("./background3.JPEG");
 
 
 }
@@ -16,14 +17,13 @@ body{
 .wrapper{
     height:100vw;
     display: grid;
-    background-color: rgb(110, 5, 131) ;
     grid-template-columns: 10% 10% 20% 20% 20% 10% 10%;
     gap: 4px;
     grid-template-rows: 5% 5fr 5%;
 }
 
 .gridone{
-    
+    background-color: rgba(240, 248, 255, 0.75);
     color: hsl(286, 96%, 21%);
     grid-column-start: 1;
     grid-column-end: 8;
@@ -35,7 +35,7 @@ body{
 }
 
 .gridtwo{
-
+    background-color: rgba(240, 248, 255, 0.75);
     color: hsl(286, 96%, 21%);
     grid-column-start: 1;
     grid-column-end: 8;
@@ -64,7 +64,7 @@ body{
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+
     width: 25vw;
     margin: 8px;
     padding: 1px;
@@ -75,13 +75,13 @@ h3{
     font-family: 'Montserrat', sans-serif;
 
 
-    background-color: aliceblue;
+
     color: #500268;
 }
 
 h6{
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+
     color: #500268;
     font-size: 11pt;
 }
