@@ -1,8 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 
-    background-image: url("./background.JPEG");
-    background-color: rgb(110, 5, 131);
 
 
 
@@ -21,10 +19,13 @@ body{
     grid-template-columns: 10% 10% 20% 20% 20% 10% 10%;
 
     grid-template-rows: 5% 5fr 5%;
+    background-image: url("./background.JPEG");
+    background-color: rgb(110, 5, 131);
+
 }
 
 .gridone{
-    background-color: rgba(240, 248, 255, 0.75);
+    background-color: rgba(240, 248, 255, 0.25);
     color: hsl(286, 96%, 21%);
     grid-column-start: 1;
     grid-column-end: 8;
@@ -36,7 +37,7 @@ body{
 }
 
 .gridtwo{
-    background-color: rgba(240, 248, 255, 0.75);
+    background-color: rgba(240, 248, 255, 0.25);
     color: hsl(286, 96%, 21%);
     grid-column-start: 1;
     grid-column-end: 8;
@@ -46,7 +47,7 @@ body{
 
 .gridthree{
     color: #9f9ca0;
-    background-color: rgb(110, 5, 131);
+
     grid-column-start: 2;
     grid-column-end: 8;
     grid-row-start: 2;
