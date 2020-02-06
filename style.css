@@ -152,6 +152,26 @@ body
   transform: none;
 }
 
+a:link{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+a:visited{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+a:hover{
+  color: blueviolet;
+  font-weight: bold;
+}
+
+a:active{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 /* *{
     font-family: Arial, Helvetica, sans-serif;
 
