@@ -9,9 +9,15 @@
   .grid-one{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
+
+.grid-two{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:4;
+}
   
 
 .sidebar{
