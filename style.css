@@ -3,8 +3,8 @@ body
   margin: 0;
   padding: 0;
   
-  background: #232323;
-  color: #cdcdcd;
+  background: #160020;
+  color: #b8b8b8;
   font-family: sans-serif;
 }
 
@@ -24,7 +24,7 @@ body
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: #160020;
   
   transition: color 0.3s ease;
 }
@@ -61,7 +61,7 @@ body
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #b8b8b8;
   border-radius: 3px;
   
   z-index: 1;
@@ -88,7 +88,7 @@ body
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #160020;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -112,7 +112,7 @@ body
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #b8b8b8;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   font-family: "Montserrat", sans-serif;
@@ -137,12 +137,12 @@ body
 }
 
 a:link{
-  color: #FFFFFF;
+  color: #b8b8b8;
   font-weight: bold;
 }
 
 a:visited{
-  color: #FFFFFF;
+  color: #b8b8b8;
   font-weight: bold;
 }
 
@@ -152,7 +152,7 @@ a:hover{
 }
 
 a:active{
-  color: #FFFFFF;
+  color: #b8b8b8;
   font-weight: bold;
 }
 
