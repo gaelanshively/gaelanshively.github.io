@@ -8,6 +8,10 @@ body
   font-family: sans-serif;
 }
 
+li{
+  padding:1px;
+}
+
 #menuToggle
 {
   display: block;
