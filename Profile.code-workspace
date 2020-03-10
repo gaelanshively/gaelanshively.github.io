@@ -3,5 +3,8 @@
 		{
 			"path": "C:\\Users\\gaela\\WCCI\\HTML"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
 }

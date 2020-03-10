@@ -3,8 +3,8 @@ body
   margin: 0;
   padding: 0;
   
-  background: #160020;
-  color: #b8b8b8;
+  background: rebeccapurple;
+  color: aliceblue;
   font-family: sans-serif;
 }
 
@@ -28,7 +28,7 @@ li{
 #menuToggle a
 {
   text-decoration: none;
-  color: #160020;
+  color: rebeccapurple;
   
   transition: color 0.3s ease;
 }
@@ -92,7 +92,7 @@ li{
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #160020;
+  background: rebeccapurple;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -172,5 +172,11 @@ h2{
 
 h3{
   font-family: 'Montserrat', sans-serif;
+}
+
+.bio_body{
+  border: #b8b8b8;
+  border-style: double;
+  border-width: 2px;
 }
 
