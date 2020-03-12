@@ -180,3 +180,23 @@ h3{
   border-width: 2px;
 }
 
+.footnote .tooltiptext{
+  visibility: hidden;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 3px;
+
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.footnote:hover .tooltiptext{
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
