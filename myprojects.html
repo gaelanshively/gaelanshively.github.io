@@ -2,59 +2,103 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gaelan Shively</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href=".\style.css">
-    <link rel="stylesheet" href=".\layout.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gaelan Shively</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href=".\style.css">
+  <link rel="stylesheet" href=".\layout.css">
 </head>
 
 <body>
-    
-    <nav role="navigation">
-        <div id="menuToggle">
-        
-          <input type="checkbox" />
-          
-          
-          <span></span>
-          <span></span>
-          <span></span>
-          
-         
-          <ul id="menu">
-            <a href="./index.html"><li>Home</li></a>
-            <a href="./bio.html"><li>About Me</li></a>
-            <a href="./contact.html"><li>Contact</li></a>
-            <a href="./myprojects.html"><li>My Projects</li></a>
-            <a href="./skills.html"><li>Technical Skills</li></a>
-          </ul>
 
-        </div>
-      </nav>
-      <div class = "grid-container">
+  <nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+
+      <ul id="menu">
+        <a href="./index.html">
+          <li>Home</li>
+        </a>
+        <a href="./bio.html">
+          <li>About Me</li>
+        </a>
+        <a href="./contact.html">
+          <li>Contact</li>
+        </a>
+        <a href="./myprojects.html">
+          <li>My Projects</li>
+        </a>
+        <a href="./skills.html">
+          <li>Technical Skills</li>
+        </a>
+      </ul>
+
+    </div>
+  </nav>
+  <div class="grid-container">
     <section class="header">
       <h1>My Projects</h1>
     </section>
     <section class="bio-body">
-        <h2><a href="https://github.com/2020-Spring-Cohort/virtual-pets-amok-cfgi">Virtual Pets Amok</a></h2>
-        <p>Terminal-based application simulating a pet shelter, with options to feed, play with, clean, and rescue organic and robotic pets. 
-          Created as part of a team using agile methods and TDD.
-        Used superclasses and subclasses to distinguish functions between robotic and organic pets, and to differentiate results between cats and dogs.</p>
-        <br>
-        <h2><a href="https://github.com/gaelanshively/high-st-hospital-gaelanshively">High St Hospital</a></h2>
-        <p>Terminal-based Java application using a group of hash maps to simulate a hospital with various staff members and patients.  
-        Used superclasses and interfaces to enable doctors and nurses to perform the same tasks with different results, and to prevent janitors and other maintenance staff from providing medical support.</p>
-        <br>
-        <h2><a href="https://github.com/2020-Spring-Cohort/reviews-site-cupcakes">Potato Party!</a></h2>
-        <p>
-          Dynamic website created as a team using scrum and extensive testing, allowing users to write reviews of potatoes.  
-          Sortable by category or hashtag, uses Spring and Thymeleaf to create pages as users enter new reviews.
-          Used H2 database to store reviews entered by users.
-        </p>
-      </section>
-    </div>
+      <h2><a href="https://github.com/WCCI-TimeTo/TimeTo">TimeTo</a></h2>
+      <p>
+        TimeTo is a calendar API that stores a user's schedule so that our single page application can compare it to the
+        user's friends, making it easier to find common free time to make plans by highlighting days when you each have
+        free time.
+        This project was built entirely via remote collaboration, relying heavily on the use of our scrum board and
+        regular stand-ups.
+        This created unique challenges for our team, and therefore gave us unique ways to grow as developers.
+        For more information or to see a demonstration, <a href="https://youtu.be/U_aNkOjoLO4">click here!</a>
+      </p>
+      <br>
+      <h2><a href="https://github.com/2020-Spring-Cohort/clicking-calamity-gaelanshively">The Summoning</a></h2>
+      <p>
+        My first foray into JavaScript, this is a click counter game modeled after <a
+          href="https://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a> and built with a Lovecraftian cosmic
+        horror theme.
+        Tested with Jasmine.
+      </p>
+      <br>
+      <h2><a href="https://github.com/2020-Spring-Cohort/reviews-site-cupcakes">Potato Party!</a></h2>
+      <p>
+        Dynamic website created as a team using scrum and extensive testing, allowing users to write reviews of
+        potatoes.
+        Sortable by category or hashtag, uses Spring and Thymeleaf to create pages as users enter new reviews.
+        Used H2 database to store reviews entered by users.
+      </p>
+      <br>
+      <h2><a href="https://github.com/2020-Spring-Cohort/artists-albums-songs-team">Heavy Metal API</a></h2>
+      <p>
+        This song information API was created as part of a team to store information on heavy metal artists, albums and
+        songs to be displayed on a single-page application.
+        We tested with JUnit for the back-end and Jasmine for the front-end.
+      </p>
+      <br>
+      <h2><a href="https://github.com/gaelanshively/high-st-hospital-gaelanshively">High St Hospital</a></h2>
+      <p>Terminal-based Java application using a group of hash maps to simulate a hospital with various staff members
+        and patients.
+        Used superclasses and interfaces to enable doctors and nurses to perform the same tasks with different results,
+        and to prevent janitors and other maintenance staff from providing medical support.</p>
+      <br>
+      <h2><a href="https://github.com/2020-Spring-Cohort/virtual-pets-amok-cfgi">Virtual Pets Amok</a></h2>
+      <p>This terminal-based application simulated a pet shelter, with options to feed, play with, clean, and rescue
+        organic and robotic pets. It was my first program in Java and the first program in any language in about 16
+        years.
+        Created as part of a team using agile methods and TDD.
+        Used superclasses and subclasses to distinguish functions between robotic and organic pets, and to differentiate
+        results between cats and dogs.</p>
+      <br>
+    </section>
+  </div>
 </body>
+
 </html>
